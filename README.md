@@ -2,9 +2,9 @@
 This project sets vim configs into Vagrant environment to Elixir projects
 
 **Pre install**
- - Requirements: make sure vagrant is installed into local host)
+ - Requirements: make sure vagrant is installed into local host
 
-**Install Vagrant Vim Machine (This is going install packages required for vim)**
+**Install Vagrant Vim Machine (This is going to install packages required for vim)**
  - \# vagrant up
  
 **Open Vagrant** 
@@ -12,7 +12,7 @@ This project sets vim configs into Vagrant environment to Elixir projects
 
 **Config Vagrant Environment**
 
-*install vundle (make sure you have ssh into local machine)* 
+*install vundle (make sure you have ssh configured)* 
  - $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 *install vim plugins* 
