@@ -1,5 +1,5 @@
 # vim-setup
-This project sets vim configs into Vagrant environment to Elixir/Haskell projects
+This project sets vim configs into Vagrant environment to Elixir projects
 
 **Pre install**
  - Requirements: make sure vagrant is installed into local host)
