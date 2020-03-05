@@ -16,7 +16,6 @@ This project sets vim configs into Vagrant environment to Elixir/Haskell project
  - $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 *install vim plugins* 
- - Copy /utils/.vimrc to ~/.vimrc
  - Open `vim`: 
    - :PluginInstall
 
