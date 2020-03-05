@@ -2,8 +2,8 @@
 This project sets vim configs into Vagrant environment to Elixir/Haskell projects
 
 **Open Vagrant**
- - # vagrant up
- - # vagrant ssh vim
+ - \# vagrant up
+ - \# vagrant ssh vim
 
 **Config Vagrant Environment**
 
