@@ -11,53 +11,29 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
   
-"if empty(glob('~/.vim/autoload/plug.vim'))
-"  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-"    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-"  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
-"endif
-"call plug#begin()
-"Plug 'wincent/command-t', {
-"  \   'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make'
-"  \ }
-"call plug#end()
-
 call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
 " Utility
+" Plugin de diretorios
 Plugin 'scrooloose/nerdtree'
 " Talvez nao precise mais desse plugin
 Plugin 'majutsushi/tagbar'
-"Plugin 'ervandew/supertab'
-"Plugin 'BufOnly.vim'
-"Plugin 'SirVer/ultisnips'
   
 Plugin 'wincent/command-t'
 Plugin 'mileszs/ack.vim'
-"Plugin 'godlygeek/tabular'
-"Plugin 'ctrlpvim/ctrlp.vim'
-"Plugin 'benmills/vimux'
-"Plugin 'jeetsukumaran/vim-buffergator'
-"Plugin 'gilsondev/searchtasks.vim'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'tpope/vim-dispatch'
 Plugin 'jceb/vim-orgmode'
-"Plugin 'tpope/vim-speeddating'
-"Plugin 'calorie/vim-typing-sound'
 
 " Generic Programming Support 
 "Plugin 'jakedouglas/exuberant-ctags'
-"Plugin 'xolox/vim-misc'
-"Plugin 'xolox/vim-easytags'
-"Plugin 'honza/vim-snippets'
 "Este plugin ajuda para abrir e fechar brackets
 Plugin 'Townk/vim-autoclose'
 "Este plugin comenta e descomenta linhas em um arquivo. cmd gcc
 Plugin 'tomtom/tcomment_vim'
-"Plugin 'tobyS/vmustache'
 "Este plugin permite a execucao de testes alinhado com o plugin vim-dispatch:TestNearest por linha
 Plugin 'janko-m/vim-test'
 "Este plugin permite formatacao html/json
@@ -97,10 +73,8 @@ Plugin 'elixir-lang/vim-elixir'
 Plugin 'avdgaag/vim-phoenix'
 Plugin 'mmorearty/elixir-ctags'
 Plugin 'mattreduce/vim-mix'
-"Plugin 'BjRo/vim-extest'
 Plugin 'frost/vim-eh-docs'
-"Este Plugin eh fantastico! ele resolve muito bem os alias dos modulos muito
-"melhor que o tags
+" Este plugin nao resolve bem caracter especial (pena)
 Plugin 'slashmili/alchemist.vim'
 "Este plugin coloca end after if, do
 Plugin 'tpope/vim-endwise'
@@ -108,33 +82,14 @@ Plugin 'tpope/vim-endwise'
 Plugin 'jadercorrea/elixir_generator.vim'
 "Este plugin formata o codigo, melhor deixar desabilitado
 Plugin 'mhinz/vim-mix-format'
-"
-"" Theme / Interface
-"Plugin 'AnsiEsc.vim'
-"Plugin 'ryanoasis/vim-devicons'
-"Plugin 'vim-airline/vim-airline'
-"Plugin 'vim-airline/vim-airline-themes'
-" Tema interessante
-"Plugin 'sjl/badwolf'
-"Plugin 'tomasr/molokai'
 
-Plugin 'morhetz/gruvbox'
-Plugin 'zenorocha/dracula-theme', {'rtp': 'vim/'}
-Plugin 'junegunn/limelight.vim'
-Plugin 'mkarmona/colorsbox'
-Plugin 'romainl/Apprentice'
-Plugin 'Lokaltog/vim-distinguished'
-Plugin 'chriskempson/base16-vim'
-Plugin 'w0ng/vim-hybrid'
-Plugin 'AlessandroYorba/Sierra'
-Plugin 'daylerees/colour-schemes'
-Plugin 'effkay/argonaut.vim'
-Plugin 'ajh17/Spacegray.vim'
-Plugin 'atelierbram/Base2Tone-vim'
-Plugin 'colepeters/spacemacs-theme.vim'
-Plugin 'dylanaraps/wal.vim'
+" Javascript Support
+Plugin 'pangloss/vim-javascript'
+
+"" Theme / Interface
 Plugin 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
+" Rest Suport
 Plugin 'diepm/vim-rest-console'
 
 " Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
