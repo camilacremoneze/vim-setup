@@ -37,5 +37,5 @@ This project sets vim configs into Vagrant environment to Elixir projects
 
  - $ asdf plugin-add elixir; asdf install elixir 1.9; asdf global elixir 1.9
 
-*Demo*
- ![Alt Text](../vim_user.gif)
+*Demo*  
+ ![](vim_user.gif)
