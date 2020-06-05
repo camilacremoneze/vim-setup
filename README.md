@@ -28,14 +28,7 @@ This project sets vim configs into Vagrant environment to Elixir projects
    - ruby extconf.rb; make
 
 **asdf/erlang/elixir setup**
- - $ sudo apt-get install -y erlang erlang-doc
- - $ cd; git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.7.4
-
- - $ echo '. $HOME/.asdf/asdf.sh' >> ~/.bashrc
- - $ echo '. $HOME/.asdf/completions/asdf.bash' >> ~/.bashrc
- - $ source ~/.bashrc
-
- - $ asdf plugin-add elixir; asdf install elixir 1.9; asdf global elixir 1.9
-
+ - https://gist.github.com/rubencaro/6a28138a40e629b06470
+ 
 *Demo*  
  ![](vim_user.gif)
